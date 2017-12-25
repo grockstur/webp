@@ -1,0 +1,45 @@
+﻿<html>
+	<head>
+		<meta charset="utf8">
+		<link href="css/style.css" rel="stylesheet">
+		<title>7.1</title>
+	</head>
+	<body>
+		<div class='navigation'>
+			<a href='ex2.html'>Следующая ></a>
+		</div>
+		<form action="/cgi-bin/ex1.py">
+			<p>ФИО: <input type="text" name="FIO"></input></p>
+			<p>Телефон: <input type="text" name="phone"></input></p>
+			<p>E-mail: <input type="text" name="email"></input></p>
+			<p>Адрес:</p>
+			<p><textarea name="adress" style="width: 30%; height: 15%;"></textarea></p>
+
+			<p>Выберите интересующее Вас направление:</p>
+			<p><select size="1" name="dir">
+				<option value="оборудование для общепита">оборудование для общепита</option>
+				<option value="оборудование для дома">оборудование для дома</option>
+				<option value="промышленное оборудование">промышленное оборудование</option>
+			</select></p>
+
+			<p>Выберите интересующую Вас группу оборудование:</p>
+			<p><select size="1" name="group">
+				<option value="группа 1">группа 1</option>
+				<option value="группа 2">группа 2</option>
+				<option value="группа 3">группа 3</option>
+			</select></p>
+
+			<p>Укажите наименование: <input type="text" name="nname"></input></p>
+			<p>Укажите модель: <input type="text" name="model"></input></p>
+			<p>Укажите количество: <input type="text" name="count"></input></p>
+			<p>Комментарий: <textarea name="comm" style="width: 30%; height: 15%;"></textarea></p>
+
+			<input type="submit"/>
+			<button type="reset">Очистить форму</button>
+		</form>
+		<div class='navigation'>
+			<a href='index.html'>На главную</a>
+		</div>
+	</body>
+</html>
+

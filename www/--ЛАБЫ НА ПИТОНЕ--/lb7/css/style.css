@@ -1,0 +1,22 @@
+body {
+	font-family: sans-serif;
+}
+#nav {
+	margin-top: 70px
+}
+.task {
+	left: 24%;
+	position: relative;
+	width: 55%;
+	min-width: 500px;
+}
+.navigation {
+	text-align: center;
+	margin: 30px;
+}
+a:visited {
+	color: #0000FF;
+}
+a:hover {
+	color: #FF0000;
+}
